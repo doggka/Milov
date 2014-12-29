@@ -1,0 +1,50 @@
+.containerr {
+    margin: auto;
+    width: 1280px;
+    padding: 20px;
+    background-color: #FFFAFA;
+}
+.inf {
+    width: 1024px;
+    margin: auto;
+
+    background-color: #FFF5EE;
+}
+.text{
+    width: 650px;
+    /*background-color: #FFFAFA;*/
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    font-size: 18pt;
+    padding: 10px;
+}
+img {
+    display: inline-block;
+}
+.kon {
+    width: 300px;
+}
+.mi {
+    width: 250px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    right: -60px;
+}
+
+
+.palindrom {
+    margin:auto;
+    width: 300px;
+}
+.lync {
+    visibility: hidden;
+}
+.sentence{
+    font-size: 25pt;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}

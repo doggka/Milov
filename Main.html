@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/sva.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="containerr">
+    <div class="palindrom"> <img src="img/41014.png" style="width: 100%"></div>
+    <div class="sentence"> свадебный палиндром <span style="font-size: 20pt"> &mdash; </span> непростое украшение </div>
+    <div class="inf">
+        <div class="text"><p> Падают, падают, падают, падают листья <br/>
+            Прилипая прямо к волосам <br/>
+            Свадьба похожа на само- на самоубийство <br/>
+            Слава богу это не про нас!</p></div>
+        <div class="mi"><img src="img/mi.png" class="mi"></div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/TestCarusel/1.jpg" />
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/TestCarusel/2.jpg" />
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/TestCarusel/3.jpg" />
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+            <div class="text">
+                Ответь на один из вопросов и скачай фотки!<br>
+                1.Имя мамы невесты <br />
+                2.имя мамы жениха<br />
+                3.Кто выиграл пиво<br />
+                4.Прозвище жениха<br />
+            <div class="input-group" style="width: 400px">
+                <span class="input-group-btn">
+                    <button id="answer" class="btn btn-default" type="submit">Ответить</button>
+                </span>
+                <input id="inp" type="text" class="form-control" placeholder="Ответ">
+            </div>
+                <div id="href" class="lync"></div>
+            </div>
+
+
+            <img src="img/kon.png" class="kon">
+
+    </div>
+</div>
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#answer").click(function () {
+            var i = $("#inp").val().toLowerCase();
+            if (i == 'оля' || i == 'ольга' || i == 'марина' || i == 'регина' || i == 'мел') {
+                $("#href").html("<a href=\"www.vk.com/doggka\">Скачать фотки</a>");
+                $("#href").css('visibility', 'visible');
+            } else {
+                $("#href").html("Неправильно! Вы не были на свадьбе?");
+                $("#href").css('visibility', 'visible');
+            }
+            $("#inp").val('');
+        });
+    });
+</script>
+</body>
+</html>
