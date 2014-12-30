@@ -1,14 +1,21 @@
+body{
+    font-family: ScriptS;
+}
+@font-face {
+    font-family: 'ScriptS';
+    src: url('ScriptS.ttf');
+}
 .containerr {
     margin: auto;
     width: 1280px;
     padding: 20px;
-    background-color: #FFFAFA;
+    background-color: #FFF5EE;
 }
 .inf {
     width: 1024px;
     margin: auto;
 
-    background-color: #FFF5EE;
+    background-color: #FFDAB9;
 }
 .text{
     width: 650px;
@@ -25,6 +32,8 @@ img {
 }
 .kon {
     width: 300px;
+    margin: auto;
+    position: relative;
 }
 .mi {
     width: 250px;
