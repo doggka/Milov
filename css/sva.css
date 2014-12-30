@@ -1,59 +1,69 @@
-body{
-    font-family: ScriptS;
-}
 @font-face {
     font-family: 'ScriptS';
     src: url('ScriptS.ttf');
+}
+body{
+    font-family: "Calibri Light";
+    font-size: 16pt;
+}
+.palindrom {
+    margin:auto;
+    width: 300px;
+}
+.sentence{
+    font-size: 32pt;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: ScriptS;
+    font-weight: 500;
 }
 .containerr {
     margin: auto;
     width: 1280px;
     padding: 20px;
-    background-color: #FFF5EE;
+    background-color: #FFFACD;
+    box-shadow: 0 0 15px #F5DEB3;
 }
 .inf {
     width: 1024px;
     margin: auto;
-
-    background-color: #FFDAB9;
+    margin-top: 20px;
+    background-color: #FFF5EE;
+    box-shadow: 0 0 15px #F5DEB3;
+    margin-bottom: 50px;
 }
 .text{
-    width: 650px;
-    /*background-color: #FFFAFA;*/
-    display: inline-block;
-    position: relative;
-    left: 60px;
-    top: 60px;
-    font-size: 18pt;
-    padding: 10px;
+    width: 750px;
+    height: 350px;
+    padding-left:50px;
+    padding-top:100px;
+    float:left;
 }
-img {
+.mi {
+    height: 350px;
     display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.questions {
+    width: 700px;
+    float:right;
+    margin-top: 40px;
+    padding-left: 100px;
+    height: 800px;
 }
 .kon {
     width: 300px;
-    margin: auto;
-    position: relative;
 }
-.mi {
-    width: 250px;
-    position: relative;
-    top: 10px;
-    display: inline-block;
-    right: -60px;
-}
-
-
-.palindrom {
-    margin:auto;
-    width: 300px;
+#inp, #answer {
+    margin-top: 20px;
 }
 .lync {
     visibility: hidden;
 }
-.sentence{
-    font-size: 25pt;
-    width: 90%;
-    margin: auto;
-    text-align: center;
+
+.mi:hover {
+    padding-top: 0px;
+    padding-bottom: 80px;
 }
