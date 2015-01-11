@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^milovashki\.ru$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.milovashki\.ru$
+RewriteRule ^/?$ "http\:\/\/milovashki\.ru\/index\.html" [R=301,L]
+Options All -Indexes
